@@ -18,6 +18,6 @@ int main()
     {
         sum += i;
     }
-    cout << "Sum of all even numbers till " << n << " is :" << sum;
+    cout << "Sum of all Odd numbers till " << n << " is :" << sum;
     return 0;
 }
