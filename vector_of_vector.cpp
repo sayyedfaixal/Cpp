@@ -4,7 +4,9 @@ int main()
 {
     vector<vector<int>> v;
     int row, col;
+    cout << "Enter the number of rows and columns : ";
     cin >> row >> col;
+    cout << "Now enter the elements of the vector : \n";
     for (int i = 0; i < row; ++i)
     {
         vector<int> temp;
