@@ -2,7 +2,6 @@
 using namespace std;
 void selectionSort(int arr[], int array_size)
 {
-    // 10 12 13 20 2 5 14
     int minimum_element_index = -1;
     for (int i = 0; i < array_size - 1; i++)
     {
